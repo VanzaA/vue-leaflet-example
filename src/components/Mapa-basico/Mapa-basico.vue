@@ -2,7 +2,7 @@
 
   <div style="height: 550px;">
     <div class="info" style="height: 15%">
-      <span>Centro: {{ center }}</span>
+      <span>Latitud, Longitud: {{ center }}</span>
       <br/>
       <span>Zoom: {{ zoom }}</span>
       <br/>
