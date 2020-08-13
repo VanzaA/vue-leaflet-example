@@ -9,7 +9,7 @@
     >
       <l-tile-layer :url="url" ></l-tile-layer>
 
-      <!--- Circulo que recibe color, radio y latitud, longitud -->
+      <!--- Circulo que recibe color, radio y un punto (latitud, longitud) -->
       <l-circle :lat-lng="circle.center" :radius="circle.radius" :color="circle.color" />
 
       <!--- Rectangulo que recibe arreglo con puntos (latitud, longitud) y estilos -->
@@ -82,10 +82,10 @@ export default {
   },
   methods: {
     zoomUpdated (zoom) {
-      console.log(zoom)
+      console.log('zoom:', zoom)
     },
     centerUpdated (center) {
-      console.log(center)
+      console.log('latitud, longitud:', center)
     }
   }
 }
