@@ -3,11 +3,10 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/mapa-basico">Mapa basico</router-link> |
-      <router-link to="/figuras">Figuras</router-link>
+      <router-link to="/figuras">Figuras</router-link> |
+      <router-link to="/marcadores-estaticos">Marcadores estaticos</router-link>
     </div>
-    <div id="mapa">
-      <router-view />
-    </div>
+    <router-view />
   </div>
 </template>
 
@@ -18,9 +17,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-#mapa {
-  min-height: 80vh!important;
 }
 
 #nav {
