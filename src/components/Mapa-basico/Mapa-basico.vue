@@ -31,8 +31,7 @@ export default {
     return {
       url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       zoom: 14,
-      center: [-34.9187, -57.956],
-      bounds: null
+      center: [-34.9187, -57.956]
     }
   },
   methods: {
@@ -44,10 +43,6 @@ export default {
       // con hacer this.center = center alcanza, yo solo agregue estas funciones matematicas
       // para que se vea mejor en la vista
       this.center = [Math.round(center.lat * 10000) / 10000, Math.round(center.lng * 10000) / 10000]
-    },
-    boundsUpdated (bounds) {
-      console.log(bounds)
-      this.bounds = bounds
     }
   }
 }
