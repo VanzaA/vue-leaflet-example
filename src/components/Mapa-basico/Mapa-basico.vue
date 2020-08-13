@@ -1,7 +1,7 @@
 <template>
 
   <div style="height: 550px;">
-    <div class="info" style="height: 15%">
+    <div class="info" style="height: 10%">
       <span>Latitud, Longitud: {{ center }}</span>
       <br/>
       <span>Zoom: {{ zoom }}</span>
@@ -14,6 +14,11 @@
       @update:zoom="zoomUpdated"
       @update:center="centerUpdated"
     >
+    <!--
+      l-map es el componente principal para los mapas
+      todo lo que se quiera agregar ya sea una capa, un marcador, figuras y demas va adentro
+      de l-map como el l-tile-layer
+    -->
       <l-tile-layer :url="url"></l-tile-layer>
     </l-map>
   </div>
@@ -21,7 +26,6 @@
 
 <script>
 import { LMap, LTileLayer } from 'vue2-leaflet'
-
 export default {
   components: {
     LMap,
