@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import ejemploBasico from '../components/Mapa-basico/Mapa-basico.vue'
 import ejemploFiguras from '../components/Figuras/Figuras.vue'
+import ejemploMarcadoresEstaticos from '../components/Marcadores/Marcadores-estaticos.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/figuras',
     name: 'figuras',
     component: ejemploFiguras
+  },
+  {
+    path: '/marcadores-estaticos',
+    name: 'marcadores-estaticos',
+    component: ejemploMarcadoresEstaticos
   }
 ]
 
