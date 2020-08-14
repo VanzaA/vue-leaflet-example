@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/mapa-basico">Mapa basico</router-link> |
       <router-link to="/figuras">Figuras</router-link> |
-      <router-link to="/marcadores-estaticos">Marcadores estaticos</router-link>
+      <router-link to="/marcadores-estaticos">Marcadores estaticos</router-link> |
+      <router-link to="/marcadores-dinamicos">Marcadores dinamicos</router-link>
     </div>
     <router-view />
   </div>

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import ejemploBasico from '../components/Mapa-basico/Mapa-basico.vue'
 import ejemploFiguras from '../components/Figuras/Figuras.vue'
+import ejemploMarcadoresDinamicos from '../components/Marcadores/Marcadores-dinamicos.vue'
 import ejemploMarcadoresEstaticos from '../components/Marcadores/Marcadores-estaticos.vue'
 
 Vue.use(VueRouter)
@@ -27,6 +28,11 @@ const routes = [
     path: '/marcadores-estaticos',
     name: 'marcadores-estaticos',
     component: ejemploMarcadoresEstaticos
+  },
+  {
+    path: '/marcadores-dinamicos',
+    name: 'marcadores-dinamicos',
+    component: ejemploMarcadoresDinamicos
   }
 ]
 
