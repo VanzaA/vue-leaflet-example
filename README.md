@@ -1,5 +1,25 @@
-# ejemplos-mapas
-Ejemplos de mapas usando vue y leaflet
+# Ejemplos mapas
+Ejemplos de mapas usando [Vue](https://vue2-leaflet.netlify.app/) y [Leaflet](https://leafletjs.com/)
+
+Para instalar Vue-CLI (herramienta para generar proyectos vue) de manera global en tu computadora:
+- Usando [npm](https://www.npmjs.com/)
+
+`npm install -g @vue/cli`
+
+- Usando [yarn](https://yarnpkg.com/)
+
+`yarn global add @vue/cli`
+
+Guia para generar un proyecto Vue:
+
+__https://cli.vuejs.org/guide/creating-a-project.html#vue-create__
+
+Guia para agregar Leaflet en Vue:
+
+__https://vue2-leaflet.netlify.app/quickstart/#installation__
+
+
+#
 
 
 ## Project setup
