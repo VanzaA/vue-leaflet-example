@@ -113,9 +113,8 @@ Icon.Default.mergeOptions({
 
 Referencias:
 
-Crear un proyecto vue: __https://cli.vuejs.org/guide/creating-a-project.html#vue-create__
-
-Instalar leaflet: __https://vue2-leaflet.netlify.app/quickstart/#installation__
+- Crear un proyecto vue: __https://cli.vuejs.org/guide/creating-a-project.html#vue-create__
+- Instalar leaflet: __https://vue2-leaflet.netlify.app/quickstart/#installation__
 
 #
 
