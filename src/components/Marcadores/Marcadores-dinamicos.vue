@@ -1,5 +1,7 @@
 <template>
   <div style="height: 550px;">
+    <h1>Crea marcadores haciendo click en el mapa</h1>
+    <br/>
     <l-map
       style="height: 90%; width: 100%"
       :zoom="zoom"

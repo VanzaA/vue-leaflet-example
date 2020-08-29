@@ -1,5 +1,6 @@
 <template>
   <div style="height: 550px;">
+    <h1>Ejemplo de marcadores estaticos con tooltips</h1>
     <l-map
       style="height: 90%; width: 100%"
       :zoom="zoom"
